@@ -3,9 +3,9 @@
   "tasks": [
     {
       "options": {
-        "cwd": "${workspaceFolder}/contracts/HelloMaikel"
+        "cwd": "${workspaceFolder}/contracts/first"
       },
-      "label": "HelloMaikel: restore-tools",
+      "label": "first: restore-tools",
       "command": "dotnet",
       "type": "shell",
       "args": [
@@ -19,9 +19,9 @@
     },
     {
       "options": {
-        "cwd": "${workspaceFolder}/contracts/HelloMaikel"
+        "cwd": "${workspaceFolder}/contracts/first"
       },
-      "label": "HelloMaikel: build",
+      "label": "first: build",
       "command": "dotnet",
       "type": "shell",
       "args": [
@@ -34,7 +34,7 @@
         "reveal": "silent"
       },
       "problemMatcher": "$msCompile",
-      "dependsOn": "HelloMaikel: restore-tools"
+      "dependsOn": "first: restore-tools"
     }
   ]
 }

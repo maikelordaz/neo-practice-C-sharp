@@ -1,6 +1,3 @@
 {
-  "recommendations": [
-    "ms-dotnettools.csharp",
-    "formulahendry.dotnet-test-explorer"
-  ]
+  "recommendations": ["formulahendry.dotnet-test-explorer"]
 }

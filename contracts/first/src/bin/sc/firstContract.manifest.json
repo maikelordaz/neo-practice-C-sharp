@@ -1,0 +1,1 @@
+{"name":"firstContract","groups":[],"features":{},"supportedstandards":[],"abi":{"methods":[{"name":"addData","offset":0,"safe":false,"returntype":"Void","parameters":[{"name":"data","type":"Any"}]},{"name":"getData","offset":41,"safe":false,"returntype":"String","parameters":[]}],"events":[]},"permissions":[],"trusts":[],"extra":{}}
